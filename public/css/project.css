@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&display=swap');
+
+/* Josefin Sans Open Sans */
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+.detailed-projects {
+    min-height: 45vh;
+    /* width: 80vw; */
+    margin: 10px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+.detailed-projects h1 {
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.project-container {
+    /* width: 80vw; */
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    width: 400px;
+}
+
+.project-box img {
+    height: 250px;
+    width: 330px;
+    border-radius: 5px;
+}
+
+.project-box h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.project-box p {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
